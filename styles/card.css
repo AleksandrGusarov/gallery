@@ -1,0 +1,841 @@
+.card {
+    padding: 27px 0 69px;
+}
+
+.card__wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 5px 5px;
+}
+
+.first-active {
+    background-image: url("../image/services_one.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 386px;
+    height: 450px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    gap: 150px;
+    padding: 0 34px 20px;
+    color: #ffffff;
+}
+
+.first-active__title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.first-active__price {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.first-active__price b {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.first-hover {
+    background-image: url("../image/services_one_shadow.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 386px;
+    height: 450px;
+    display: none;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    padding: 35px ;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.first-hover__title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.first-hover__description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 55px;
+}
+
+.first-hover__button {
+    width: 150px;
+    height: 50px;
+    background-color: chocolate;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.first:hover .first-active {
+    display: none;
+}
+
+.first:hover .first-hover {
+    display: flex;
+}
+
+.second-active {
+    background-image: url("../image/services_two.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 386px;
+    height: 450px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    gap: 150px;
+    padding: 0 34px 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.second-active__title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.second-active__price {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.second-active__price b {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.second-hover {
+    background-image: url("../image/services_two.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 386px;
+    height: 450px;
+    display: none;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    padding: 35px ;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.second-hover__title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.second-hover__description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 55px;
+}
+
+.second-hover__button {
+    width: 150px;
+    height: 50px;
+    background-color: chocolate;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.second:hover .second-active {
+    display: none;
+}
+
+.second:hover .second-hover {
+    display: flex;
+}
+
+.third-active {
+    background-image: url("../image/services_three.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 386px;
+    height: 450px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    gap: 150px;
+    padding: 0 34px 20px;
+    color: #ffffff;
+}
+
+.third-active__title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.third-active__price {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.third-active__price b {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.third-hover {
+    display: none;
+}
+
+.third-hover {
+    background-image: url("../image/services_three_shadow.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 386px;
+    height: 450px;
+    display: none;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    padding: 35px ;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.third-hover__title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.third-hover__description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 60px;
+}
+
+.third-hover__button {
+    width: 150px;
+    height: 50px;
+    background-color: chocolate;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.third:hover .third-active {
+    display: none;
+}
+
+.third:hover .third-hover {
+    display: flex;
+}
+
+.fourth-active {
+    background-image: url("../image/services_four.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 582px;
+    height: 300px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    gap: 110px;
+    padding: 47px 20px;
+    color: #ffffff;
+}
+
+.fourth-active__title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.fourth-active__price {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.fourth-active__price b {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.fourth-hover {
+    display: none;
+}
+
+.fourth-hover {
+    background-image: url("../image/services_four_shadow.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 582px;
+    height: 300px;
+    display: none;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    gap: 110px;
+    padding: 47px 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.fourth-hover__title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.fourth-hover__button {
+    width: 150px;
+    height: 50px;
+    background-color: chocolate;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.fourth:hover .fourth-active {
+    display: none;
+}
+
+.fourth:hover .fourth-hover {
+    display: flex;
+}
+
+.fifth-active {
+    background-image: url("../image/services_five.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 582px;
+    height: 300px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    gap: 110px;
+    padding: 47px 20px;
+    color: #ffffff;
+}
+
+.fifth-active__title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.fifth-active__price {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.fifth-active__price b {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.fifth-hover {
+    display: none;
+}
+
+.fifth-hover {
+    background-image: url("../image/services_five_shadow.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 582px;
+    height: 300px;
+    display: none;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    gap: 110px;
+    padding: 47px 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.fifth-hover__title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.fifth-hover__button {
+    width: 150px;
+    height: 50px;
+    background-color: chocolate;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.fifth:hover .fifth-active {
+    display: none;
+}
+
+.fifth:hover .fifth-hover {
+    display: flex;
+}
+
+.sixth-active {
+    background-image: url("../image/services_six.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 386px;
+    height: 450px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    gap: 150px;
+    padding: 0 34px 20px;
+    color: #ffffff;
+}
+
+.sixth-active__title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.sixth-active__price {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.sixth-active__price b {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.sixth-hover {
+    display: none;
+}
+
+.sixth-hover {
+    background-image: url("../image/services_six_shadow.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 386px;
+    height: 450px;
+    display: none;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    padding: 35px ;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.sixth-hover__title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.sixth-hover__description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 60px;
+}
+
+.sixth-hover__button {
+    width: 150px;
+    height: 50px;
+    background-color: chocolate;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.sixth:hover .sixth-active {
+    display: none;
+}
+
+.sixth:hover .sixth-hover {
+    display: flex;
+}
+
+.seventh-active {
+    background-image: url("../image/services_seven.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 386px;
+    height: 450px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    gap: 150px;
+    padding: 0 34px 20px;
+    color: #ffffff;
+}
+
+.seventh-active__title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.seventh-active__price {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.seventh-active__price b {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.seventh-hover {
+    display: none;
+}
+
+.seventh-hover {
+    background-image: url("../image/services_seven_shadow.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 386px;
+    height: 450px;
+    display: none;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    padding: 35px ;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.seventh-hover__title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.seventh-hover__description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 60px;
+}
+
+.seventh-hover__button {
+    width: 150px;
+    height: 50px;
+    background-color: chocolate;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.seventh:hover .seventh-active {
+    display: none;
+}
+
+.seventh:hover .seventh-hover {
+    display: flex;
+}
+
+.form__main {
+    width: 386px;
+    height: 450px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 15px;
+    border: 6px solid chocolate;
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+.form__title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form__name {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 316px;
+    height: 42px;
+    padding-left: 8px;
+}
+
+.form__phone {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 150px;
+    height: 42px;
+    padding-left: 8px;
+}
+
+.form__email {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 150px;
+    height: 42px;
+    padding-left: 8px;
+}
+
+.form__services {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 316px;
+    height: 42px;
+    padding-left: 8px;
+}
+
+.form__comment {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 316px;
+    height: 60px;
+    padding-left: 8px;
+    position: relative;
+    padding-bottom: 27px;
+}
+
+.form__description {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    width: 198px;
+}
+
+.form__wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 14px;
+}
+
+.form__button {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+    width: 101px;
+    height: 42px;
+    background-color: chocolate;
+    border: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1264px) {
+    .fourth-active {
+        background-image: url("../image/services_four.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 386px;
+        height: 450px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        padding: 35px ;
+        color: #ffffff;
+    }
+
+    .fourth-hover {
+        background-image: url("../image/services_four_shadow.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 386px;
+        height: 450px;
+        display: none;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        padding: 35px ;
+        color: #ffffff;
+    }
+
+    .fourth:hover .fourth-active {
+        display: none;
+    }
+
+    .fourth:hover .fourth-hover {
+        display: flex;
+    }
+
+    .fifth-active {
+        background-image: url("../image/services_five.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 386px;
+        height: 450px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        padding: 35px ;
+        color: #ffffff;
+    }
+
+    .fifth-hover {
+        background-image: url("../image/services_five_shadow.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 386px;
+        height: 450px;
+        display: none;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        padding: 35px ;
+        color: #ffffff;
+    }
+
+    .fifth:hover .fifth-active {
+        display: none;
+    }
+
+    .fifth:hover .fifth-hover {
+        display: flex;
+    }
+}
+
+@media (max-width: 440px) {
+    .card__wrapper {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .first-active {
+        max-width: 320px;
+    }
+
+    .first-hover {
+        max-width: 320px;
+    }
+
+    .second-active {
+        max-width: 320px;
+    }
+
+    .second-hover {
+        max-width: 320px;
+    }
+
+    .third-active {
+        max-width: 320px;
+    }
+
+    .third-hover {
+        max-width: 320px;
+    }
+
+    .fourth-active {
+        max-width: 320px;
+    }
+
+    .fourth-hover {
+        max-width: 320px;
+    }
+
+    .fifth-active {
+        max-width: 320px;
+    }
+
+    .fifth-hover {
+        max-width: 320px;
+    }
+
+    .sixth-active {
+        max-width: 320px;
+    }
+
+    .sixth-hover {
+        max-width: 320px;
+    }
+
+    .seventh-active {
+        max-width: 320px;
+    }
+
+    .seventh-hover {
+        max-width: 320px;
+    }
+
+    .form__main {
+        max-width: 320px;
+    }
+
+    .form__title {
+        font-size: 18px;
+        margin:0 0;
+    }
+
+    .form__name {
+        max-width: 250px;
+        height: 32px;
+    }
+
+    .form__phone{
+        max-width: 115px;
+        height: 32px;
+    }
+
+    .form__email {
+        max-width: 120px;
+        height: 32px;
+    }
+
+    .form__services {
+        max-width: 250px;
+        height: 32px;
+    }
+
+    .form__comment {
+        max-width: 250px;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 0 0 8px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

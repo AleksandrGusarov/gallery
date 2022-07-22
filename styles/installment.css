@@ -1,0 +1,82 @@
+.installment {
+    max-width: 1904px;
+    min-height: 255px;
+    position: relative;
+    background-image: url("../image/installment.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    margin: 0 auto 35px;
+}
+
+.installment__wrapper {
+    max-width: 1904px;
+    min-height: 255px;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+    align-items: end;
+    padding: 35px;
+}
+
+.installment__button_about {
+    width: 210px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 55px;
+    background-color: chocolate;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.installment__button_submit {
+    width: 210px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 55px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: chocolate;
+}
+
+@media (max-width: 1270px) {
+    .installment__wrapper {
+        padding: 35px 20px;
+    }
+}
+
+@media (max-width: 1230px) {
+    .installment__wrapper {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .installment {
+        background-image: url("../image/installment_cut.png");
+        background-size: auto;
+    }
+}
+
+@media (max-width: 516px) {
+    .installment__button_about {
+        font-size: 14px;
+        line-height: 16px;
+        height: 45px;
+    }
+
+    .installment__button_submit {
+        font-size: 14px;
+        line-height: 16px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 390px) {
+    .installment {
+        max-width: 320px;
+    }
+}
